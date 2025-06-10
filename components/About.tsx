@@ -12,7 +12,7 @@ const About = () => (
           {data.about.highlights.map((item:any, index:any) => (
             <div
               key={index}
-              className="hightlight-item"
+              className="highlight-item"
             >
               <h4 className="">{item.title}</h4>
               <p className="">{item.description}</p>
