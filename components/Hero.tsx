@@ -17,7 +17,7 @@ const Hero = () => {
           style={{background:`url('/images/pfp.jpeg')`,
               backgroundSize: 'cover',
         }}>
-          {/* {avatarInitials} */}
+          {/* {avatarInitials bro} */}
         </div>
         <h1 className="hero-name">{name}</h1>
         <p className="hero-title">{title}</p>
