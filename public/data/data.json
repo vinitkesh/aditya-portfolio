@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "name": "Aditya Keshri",
+    "title": "Aerospace Engineer || Ex Intern at Indian Space Research Organization",
+    "location": "Thiruvananthapuram, Kerala, India",
+    "email": "adityakeshri1512@gmail.com",
+    "resumeLink": "mailto:adityakeshri1512@gmail.com",
+    "contactLink": "#contact",
+    "avatarInitials" : "AK"
+  },
+  "about": {
+    "description": "Aerospace Engineer with experience at ISRO specializing in space debris research, satellite design, and orbital mechanics. Passionate about aerospace technology and innovation with hands-on experience in advanced simulation tools and research methodologies.",
+    "highlights": [
+      {
+        "title": "🚀 ISRO Experience",
+        "description": "Research intern at India's premier space organization"
+      },
+      {
+        "title": "🛰️ Space Debris Expert",
+        "description": "Specialized in LEO object tracking and analysis"
+      },
+      {
+        "title": "💻 Tech Innovation",
+        "description": "Machine Learning and Deep Learning enthusiast"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Project Intern",
+      "company": "ISRO - Indian Space Research Organization",
+      "duration": "January 2023 - May 2023",
+      "location": "VSSC, Thiruvananthapuram, Kerala",
+      "description": [
+        "Conducted extensive research on the Estimation of Space Debris parameters of LEO Objects essential for Tracking, Conjunction Analysis, and Risk Mitigation",
+        "Contributed to research on LEO Drag Models, Satellite Design, and Orbit Perturbations",
+        "Utilized tools such as Ansys STK and MATLAB for orbital trajectory calculations",
+        "Created debris catalogs using USSPACECOM and DISCOS databases"
+      ],
+      "skills": [
+        "Space Debris Analysis", "MATLAB", "ANSYS STK", "LEO Drag", "Satellite Design"
+      ]
+    },
+    {
+      "role": "Internship Trainee",
+      "company": "Rajiv Gandhi Academy For Aviation Technology",
+      "duration": "April 2022",
+      "location": "Kerala",
+      "description": [
+        "Familiarized with Maintenance cycle and safety activities on Cessna 172R & Piper PA 34-220T aircraft"
+      ]
+    },
+    {
+      "role": "Research Intern",
+      "company": "Brahmastra Aerospace",
+      "duration": "January 2022 - February 2022",
+      "location": "India",
+      "description": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology - BTech",
+      "university": "APJ Abdul Kalam Technological University",
+      "field": "Aerospace, Aeronautical and Astronautical Engineering with Minors in Machine Learning",
+      "duration": "2019 - 2023"
+    },
+    {
+      "degree": "Master's in Hybrid Electric propulsion Technology",
+      "university": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "field": "Hybrid Electric Propulsion",
+      "duration": "2024 - Present"
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Space Debris Analysis", "MATLAB", "ANSYS STK", "LEO Drag", "Satellite Design",
+      "CATIA", "Deep Learning", "Machine Learning", "Orbit Perturbations", "Orbital Trajectories"
+    ],
+    "certifications": [
+      "ANSYS STK", "Deep Learning", "CATIA"
+    ],
+    "languages": [
+      { "language": "English", "proficiency": "Native or Bilingual" },
+      { "language": "German", "proficiency": "Limited Working" }
+    ]
+  },
+  "contact": {
+    "email": "adityakeshri1512@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aditya-keshri",
+    "location": "Lipezker Str. 46 104/5, 03048 Cottbus, Germany",
+    "message": "I'm always interested in discussing aerospace engineering, space technology, and innovative projects."
+  },
+   "tags": [
+    "Space Debris",
+    "LEO Drag",
+    "Satellite Design",
+    "Orbital Mechanics",
+    "MATLAB",
+    "ANSYS STK",
+    "Machine Learning",
+    "Deep Learning",
+    "Aerospace Engineering",
+    "CATIA",
+    "Orbit Perturbation",
+    "Research",
+    "ISRO",
+    "Simulation",
+    "Hybrid Propulsion"
+  ]
+}
