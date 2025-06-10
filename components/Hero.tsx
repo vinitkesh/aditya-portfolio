@@ -5,15 +5,19 @@ const Hero = () => {
   const email = data.contact.email;
 
   return (
-    <section id="home" className="hero bg-cover relative"
+    <section id="home" className="hero bg-cover relative h-screen w-full"
       style={{background:`url('/images/plane.jpg')`,
             backgroundSize: 'cover',
+            backgroundPosition: '-200px 0px'
       }}
     >
       <div className="absolute inset-0 backdrop-brightness-[30%]"></div>
       <div className="container mx-auto px-4 z-10">
-        <div className="avatar-placeholder">
-          {avatarInitials}
+        <div className="avatar-placeholder bg-cover"
+          style={{background:`url('/images/pfp.jpeg')`,
+              backgroundSize: 'cover',
+        }}>
+          {/* {avatarInitials} */}
         </div>
         <h1 className="hero-name">{name}</h1>
         <p className="hero-title">{title}</p>

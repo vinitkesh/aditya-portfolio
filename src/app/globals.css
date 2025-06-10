@@ -730,6 +730,12 @@ select.form-control {
   position: relative;
 }
 
+.nav-link.active {
+  color: var(--color-primary);
+  font-weight: bold;
+  border-bottom: 2px solid var(--color-primary);
+}
+
 .nav-link:hover {
   color: var(--color-primary);
 }
