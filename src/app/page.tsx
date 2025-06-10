@@ -10,11 +10,14 @@ import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
 import { initScrollAnimations } from '../../utils/scrollAnimations';
 import { useEffect } from 'react';
+import { initSmoothScrolling } from '../../utils/smoothScroll';
 
 export default function Home() {
 
   useEffect(() => {
     initScrollAnimations();
+    initSmoothScrolling();
+
   }, []);
   
   return (
