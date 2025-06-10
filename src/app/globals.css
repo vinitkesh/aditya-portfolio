@@ -369,6 +369,7 @@ pre code {
 }
 
 .btn--primary:hover {
+  color: white;
   background: var(--color-primary-hover);
 }
 
@@ -392,6 +393,7 @@ pre code {
 .btn--outline {
   background: transparent;
   border: 1px solid var(--color-border);
+  transition-duration: 0.5s;
   color: var(--color-text);
 }
 

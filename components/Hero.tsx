@@ -21,16 +21,16 @@ const Hero = () => {
         <h1 className="hero-name">{name}</h1>
         <p className="hero-title">{title}</p>
         <p className="">📍 {location}</p>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+        <div className="hero-buttons">
           <a
             href="#contact"
-            className="px-6 py-2 text-white bg-primary rounded-md hover:bg-primary-hover transition"
+            className="btn btn--primary"
           >
             Contact Me
           </a>
           <a
-            href={`mailto:${email}`}
-            className="px-6 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition"
+            href={"./Aditya_Keshri.pdf"}
+            className="btn--outline btn "
           >
             Download Resume
           </a>
