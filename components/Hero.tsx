@@ -6,9 +6,9 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero bg-cover relative h-screen w-full"
-      style={{background:`url('/images/plane.jpg')`,
-            backgroundSize: 'cover'
-      }}
+      // style={{background:`url('/images/plane.jpg')`,
+      //       backgroundSize: 'cover'
+      // }}
     >
       <div className="absolute inset-0 backdrop-brightness-[30%]"></div>
       <div className="container mx-auto px-4 z-10">

@@ -782,7 +782,7 @@ select.form-control {
   justify-content: center;
   text-align: center;
   padding: var(--space-32) 0;
-  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+  /* background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%); */
 }
 
 .hero-content {
@@ -1372,7 +1372,7 @@ select.form-control {
   }
 
   .hero {
-    background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+    /* background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%); */
   }
 }
 
@@ -1381,5 +1381,5 @@ select.form-control {
 }
 
 [data-color-scheme="dark"] .hero {
-  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+  /* background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%); */
 }

@@ -27,7 +27,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Navbar />
-      <main>
+      <main
+      className='bg-cover'
+    style={{background:`url('/images/plane.jpg')`,
+              backgroundSize: 'cover',
+              backgroundAttachment : 'fixed'
+        }}>
         <Hero />
         <About />
         <Experience />
