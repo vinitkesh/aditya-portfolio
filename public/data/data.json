@@ -5,7 +5,7 @@
     "location": "Cottbus, Germany",
     "email": "adityakeshri1512@gmail.com",
     "phone": "+49 155 60683542",
-    "resumeLink": "/resume/v1/Aditya_Keshri_CV_A4.pdf",
+    "resumeLink": "/resume/v1/Aditya_Keshri_CV_A4.pdf ",
     "contactLink": "#contact",
     "avatarInitials": "AK"
   },
@@ -85,6 +85,14 @@
     }
   ],
   "skills": {
+    "programmingAndData": [
+      "Python",
+      "MATLAB",
+      "Machine learning for flow modelling",
+      "Regression models",
+      "Clustering",
+      "Numerical analysis"
+    ],
     "cfdAndSimulation": [
       "ANSYS Fluent",
       "OpenFOAM",
@@ -96,21 +104,12 @@
     ],
     "thermalEngineering": [
       "Battery thermal management",
-      "Heat exchangers",
-      "Cooling ducts",
-      "Porous media",
+      "Heat exchangers, Cooling ducts and Porous media",
       "HVAC fundamentals",
       "Duct flow",
       "Airflow distribution"
     ],
-    "programmingAndData": [
-      "Python",
-      "MATLAB",
-      "Machine learning for flow modelling",
-      "Regression models",
-      "Clustering",
-      "Numerical analysis"
-    ],
+    
     "designAndPostProcessing": [
       "nTopology",
       "CATIA",
