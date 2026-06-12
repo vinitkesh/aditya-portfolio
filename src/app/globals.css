@@ -692,6 +692,128 @@ select.form-control {
 
 /* Additional custom styles for the portfolio */
 
+/* Loading overlay + airplane animation */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(252,252,249,0.9));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.loading-center {
+  text-align: center;
+}
+.airplane-wrapper {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.airplane {
+  color: var(--color-primary);
+  animation: plane-fly 2.5s cubic-bezier(.2,.9,.3,1) infinite;
+  transform-origin: 50% 50%;
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.08));
+}
+
+/* Rafale-specific animations */
+.rafale-svg {
+  color: var(--color-primary);
+  width: 96px;
+  height: 96px;
+  display: block;
+  margin: 0 auto;
+  animation: rafale-hover 2.5s ease-in-out infinite;
+}
+.rafale-body {
+  transform-origin: 50% 50%;
+  animation: rafale-tilt 2.5s ease-in-out infinite;
+}
+.rafale-contrail {
+  stroke: rgba(255,255,255,0.75);
+  mix-blend-mode: screen;
+  stroke-dasharray: 12 12;
+  animation: contrail-flow 2.5s linear infinite;
+}
+.rafale-highlight {
+  opacity: 0.95;
+  animation: highlight-pulse 2.5s ease-in-out infinite;
+}
+.loading-text {
+  margin-top: 12px;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+@keyframes plane-fly {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0.9 }
+  25% { transform: translateY(-8px) rotate(-6deg); opacity: 1 }
+  50% { transform: translateY(0) rotate(0deg); opacity: 0.95 }
+  75% { transform: translateY(8px) rotate(6deg); opacity: 1 }
+  100% { transform: translateY(0) rotate(0deg); opacity: 0.9 }
+}
+
+@keyframes rafale-hover {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-6px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+@keyframes rafale-tilt {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-4deg) translateX(-2px); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes contrail-flow {
+  0% { stroke-dashoffset: 0; opacity: 0.9 }
+  50% { stroke-dashoffset: 24; opacity: 1 }
+  100% { stroke-dashoffset: 48; opacity: 0.9 }
+}
+
+@keyframes highlight-pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+/* Jet-specific tweaks */
+.airplane .jet {
+  transform-origin: 50% 50%;
+  animation: jet-swoop 2.5s ease-in-out infinite;
+}
+
+.airplane .airplane-trail path {
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 8 8;
+  animation: trail-move 2.5s linear infinite;
+}
+
+@keyframes jet-swoop {
+  0% { transform: translateX(0) rotate(0deg) scale(1); }
+  40% { transform: translateX(-6px) rotate(-6deg) scale(1.02); }
+  70% { transform: translateX(-3px) rotate(-3deg) scale(1); }
+  100% { transform: translateX(0) rotate(0deg) scale(1); }
+}
+
+@keyframes trail-move {
+  0% { stroke-dashoffset: 0; opacity: 0.7 }
+  50% { stroke-dashoffset: 18; opacity: 1 }
+  100% { stroke-dashoffset: 36; opacity: 0.7 }
+}
+
+/* Make contrails whiter and crisper for a military jet feel */
+.airplane .airplane-trail path {
+  stroke: rgba(255,255,255,0.85);
+  mix-blend-mode: screen;
+}
+
+
 /* Navigation */
 .navbar {
   position: fixed;
