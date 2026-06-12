@@ -1,111 +1,151 @@
 {
   "hero": {
-    "name": "Aditya Keshri ",
-    "title": "Aerospace Engineer || Ex Intern at Indian Space Research Organization",
-    "location": "Thiruvananthapuram, Kerala, India",
+    "name": "Aditya Keshri",
+    "title": "Master's student — Hybrid Electric Propulsion Technology | CFD & Thermal Engineering",
+    "location": "Cottbus, Germany",
     "email": "adityakeshri1512@gmail.com",
-    "resumeLink": "mailto:adityakeshri1512@gmail.com",
+    "phone": "+49 155 60683542",
+    "resumeLink": "/resume/v1/Aditya_Keshri_CV_A4.pdf",
     "contactLink": "#contact",
-    "avatarInitials" : "AK"
+    "avatarInitials": "AK"
   },
   "about": {
-    "description": "Aerospace Engineer with experience at ISRO specializing in space debris research, satellite design, and orbital mechanics. Passionate about aerospace technology and innovation with hands-on experience in advanced simulation tools and research methodologies.",
+    "description": "Master’s student in Hybrid Electric Propulsion Technology focused on CFD, battery thermal management (BTMS), heat exchangers, HVAC fundamentals, and fluid-flow simulation. Experienced with ANSYS Fluent, OpenFOAM, MATLAB, Python, nTopology, CATIA, and ParaView for simulation, modelling, post-processing, and technical analysis. Currently working on CFD-based battery cooling using porous media and TPMS heat-exchange structures for electric aircraft applications, with a growing focus on machine learning for flow modelling.",
     "highlights": [
       {
-        "title": "🚀 ISRO Experience",
-        "description": "Research intern at India's premier space organization"
+        "title": "🔬 CFD & Thermal",
+        "description": "ANSYS Fluent, OpenFOAM, conjugate heat transfer, meshing, turbulence modelling"
       },
       {
-        "title": "🛰️ Space Debris Expert",
-        "description": "Specialized in LEO object tracking and analysis"
+        "title": "⚡ Battery Thermal Management",
+        "description": "BTMS concepts, porous media, TPMS heat-exchange structures, pressure-drop analysis"
       },
       {
-        "title": "💻 Tech Innovation",
-        "description": "Machine Learning and Deep Learning enthusiast"
+        "title": "💻 Programming & ML",
+        "description": "Python, MATLAB, machine learning for flow modelling and data analysis"
       }
     ]
   },
   "experience": [
     {
-      "role": "Project Intern",
-      "company": "ISRO - Indian Space Research Organization",
-      "duration": "January 2023 - May 2023",
-      "location": "VSSC, Thiruvananthapuram, Kerala",
+      "role": "Study Project - Battery Thermal Management with Porous Media",
+      "company": "BTU Cottbus-Senftenberg / Pusan National University",
+      "duration": "Aug 2025 - Present",
+      "location": "Cottbus, Germany / Pusan, South Korea",
       "description": [
-        "Conducted extensive research on the Estimation of Space Debris parameters of LEO Objects essential for Tracking, Conjunction Analysis, and Risk Mitigation",
-        "Contributed to research on LEO Drag Models, Satellite Design, and Orbit Perturbations",
-        "Utilized tools such as Ansys STK and MATLAB for orbital trajectory calculations",
-        "Created debris catalogs using USSPACECOM and DISCOS databases"
+        "Conducted CFD simulations in ANSYS Fluent to study thermo-hydraulic performance, temperature uniformity, heat transfer behaviour, and pressure drop in battery cooling systems.",
+        "Designed and optimized TPMS-based heat-exchange structures in nTopology for improved battery thermal management in electric aircraft applications.",
+        "Performed 3D conjugate heat-transfer simulations and analyzed trade-offs between cooling performance, pressure drop, and flow distribution in BTMS concepts."
       ],
-      "skills": [
-        "Space Debris Analysis", "MATLAB", "ANSYS STK", "LEO Drag", "Satellite Design"
-      ]
+      "skills": ["ANSYS Fluent", "OpenFOAM", "nTopology", "Conjugate Heat Transfer", "BTMS"]
     },
     {
-      "role": "Internship Trainee",
-      "company": "Rajiv Gandhi Academy For Aviation Technology",
-      "duration": "April 2022",
-      "location": "Kerala",
+      "role": "Project Intern - Space Debris Drag Estimation",
+      "company": "Indian Space Research Organization (ISRO)",
+      "duration": "Jan 2023 - Sep 2023",
+      "location": "Trivandrum, India",
       "description": [
-        "Familiarized with Maintenance cycle and safety activities on Cessna 172R & Piper PA 34-220T aircraft"
+        "Investigated estimation methods for space debris characteristics such as ballistic coefficient and radar cross-section in Low Earth Orbit.",
+        "Used regression-based models and data analysis to estimate drag-related parameters and identify correlations between orbital behaviour and debris characteristics.",
+        "Gained experience in MATLAB-based data analysis, numerical modelling, and aerospace simulation workflows."
+      ],
+      "skills": ["MATLAB", "Regression Models", "Data Analysis", "Drag Estimation"]
+    }
+  ],
+  "selectedProjects": [
+    {
+      "title": "Thermal Management Cooling Duct with Compact Heat Exchanger",
+      "organization": "DLR Institute / BTU Cottbus-Senftenberg",
+      "description": [
+        "Conducted experimental analysis of a cooling duct with a compact louvered plate-fin heat exchanger, measuring pressure drop and flow behaviour using static pressure taps, Pitot tube measurements, and temperature sensors.",
+        "Evaluated heat-transfer and pressure-loss behaviour under varying airflow and coolant conditions, including Reynolds number and pressure drop analysis."
       ]
     },
     {
-      "role": "Research Intern",
-      "company": "Brahmastra Aerospace",
-      "duration": "January 2022 - February 2022",
-      "location": "India",
-      "description": []
+      "title": "Drag Estimation for Space Debris",
+      "organization": "Bachelor's Final Year Project",
+      "description": [
+        "Estimated hard body radius and ballistic coefficient of LEO space objects using machine learning-based regression, clustering, MATLAB, GMAT, and ANSYS Fluent.",
+        "Analyzed orbital and drag-related data to identify correlations between radar cross-section, ballistic coefficient, and trajectory behaviour for space debris characterization."
+      ]
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Technology - BTech",
-      "university": "APJ Abdul Kalam Technological University",
-      "field": "Aerospace, Aeronautical and Astronautical Engineering with Minors in Machine Learning",
-      "duration": "2019 - 2023"
+      "degree": "Master’s in Hybrid Electric Propulsion Technology",
+      "university": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "field": "CFD, thermal management, battery systems, heat transfer, OpenFOAM, machine learning for flow modelling",
+      "duration": "Oct 2024 - Present"
     },
     {
-      "degree": "Master's in Hybrid Electric propulsion Technology",
-      "university": "Brandenburg University of Technology Cottbus-Senftenberg",
-      "field": "Hybrid Electric Propulsion",
-      "duration": "2024 - Present"
+      "degree": "Bachelor’s in Aeronautical Engineering with Machine Learning",
+      "university": "APJ Abdul Kalam Technological University",
+      "field": "Aeronautical Engineering",
+      "duration": "Jun 2019 - Oct 2023"
     }
   ],
   "skills": {
-    "technical": [
-      "Space Debris Analysis", "MATLAB", "ANSYS STK", "LEO Drag", "Satellite Design",
-      "CATIA", "Deep Learning", "Machine Learning", "Orbit Perturbations", "Orbital Trajectories"
+    "cfdAndSimulation": [
+      "ANSYS Fluent",
+      "OpenFOAM",
+      "CFD modelling",
+      "Conjugate heat transfer",
+      "Turbulence modelling",
+      "Meshing",
+      "Pressure drop analysis"
     ],
-    "certifications": [
-      "ANSYS STK", "Deep Learning", "CATIA"
+    "thermalEngineering": [
+      "Battery thermal management",
+      "Heat exchangers",
+      "Cooling ducts",
+      "Porous media",
+      "HVAC fundamentals",
+      "Duct flow",
+      "Airflow distribution"
+    ],
+    "programmingAndData": [
+      "Python",
+      "MATLAB",
+      "Machine learning for flow modelling",
+      "Regression models",
+      "Clustering",
+      "Numerical analysis"
+    ],
+    "designAndPostProcessing": [
+      "nTopology",
+      "CATIA",
+      "TPMS structures",
+      "ParaView",
+      "Technical reporting"
     ],
     "languages": [
-      { "language": "English", "proficiency": "Native or Bilingual" },
-      { "language": "German", "proficiency": "Limited Working" }
+      { "language": "English", "level": "C1" },
+      { "language": "German", "level": "B1" },
+      { "language": "Hindi", "level": "Native" },
+      { "language": "Malayalam", "level": "Basic" }
     ]
   },
   "contact": {
     "email": "adityakeshri1512@gmail.com",
+    "phone": "+49 155 60683542",
     "linkedin": "https://www.linkedin.com/in/aditya-keshri",
-    "location": "Lipezker Str. 46 104/5, 03048 Cottbus, Germany",
-    "message": "I'm always interested in discussing aerospace engineering, space technology, and innovative projects."
+    "portfolio": "https://www.adityakeshri.in",
+    "location": "Cottbus, Germany",
+    "message": "Looking for aeronautical and aerospace roles; open to opportunities in CFD, thermal systems, and BTMS."
   },
-   "tags": [
-    "Space Debris",
-    "LEO Drag",
-    "Satellite Design",
-    "Orbital Mechanics",
+  "tags": [
+    "CFD",
+    "ANSYS Fluent",
+    "OpenFOAM",
+    "Battery Thermal Management",
+    "BTMS",
+    "Heat Exchangers",
+    "nTopology",
+    "TPMS",
+    "Python",
     "MATLAB",
-    "ANSYS STK",
     "Machine Learning",
-    "Deep Learning",
-    "Aerospace Engineering",
-    "CATIA",
-    "Orbit Perturbation",
-    "Research",
-    "ISRO",
-    "Simulation",
-    "Hybrid Propulsion"
+    "Thermal Engineering",
+    "Aerospace Engineering"
   ]
 }

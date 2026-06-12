@@ -29,10 +29,11 @@ const Hero = () => {
             Contact Me
           </a>
           <a
-            href={"./Aditya_Keshri.pdf"}
+            href={"./resume/v1/Aditya_Keshri_CV_A4.pdf"}
+            target="_blank"
             className="btn--outline btn "
           >
-            Download Resume
+            Resume
           </a>
         </div>
       </div>
