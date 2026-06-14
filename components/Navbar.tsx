@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const sectionIds = ['home', 'about', 'experience', 'skills', 'education', 'contact'];
 
   useEffect(() => {
@@ -43,20 +44,35 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    // close mobile menu on resize to larger screens
+    const handleResize = () => {
+      if (window.innerWidth > 768 && mobileOpen) setMobileOpen(false);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [mobileOpen]);
+
   return (
     <nav id="navbar" className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="nav-brand">
           <a href="#home">Aditya Keshri</a>
         </div>
-        <div className="nav-menu" id="nav-menu">
+        <div className={`nav-menu ${mobileOpen ? 'active' : ''}`} id="nav-menu">
           {sectionIds.map((id) => (
-            <a key={id} href={`#${id}`} className="nav-link">
+            <a key={id} href={`#${id}`} className="nav-link" onClick={() => setMobileOpen(false)}>
               {id.charAt(0).toUpperCase() + id.slice(1)}
             </a>
           ))}
         </div>
-        <button id="nav-toggle" className="nav-toggle">
+        <button
+          id="nav-toggle"
+          className={`nav-toggle ${mobileOpen ? 'active' : ''}`}
+          aria-expanded={mobileOpen}
+          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+          onClick={() => setMobileOpen((v) => !v)}
+        >
           <span></span><span></span><span></span>
         </button>
       </div>
